@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgrey;
+    position: relative;
+}
+
+.div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black; 
+    text-align: center;
+    color: white;   
+}
+
+#div01{
+    left: 0px;
+}
+
+#div02{
+    right: 0px;
+}
+
+#div03{
+    left: 0px;
+    bottom: 0px;
+}
+
+#div04{
+    right: 0px;
+    bottom: 0px;
+}
